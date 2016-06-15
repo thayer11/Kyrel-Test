@@ -23,6 +23,8 @@ var initial_state = ['b', 'b', 'b', 'b', 'b'];
 
 function main(n) {
   moveRight();
+  erase();
+  moveRight();
   moveRight();
   erase();
 
